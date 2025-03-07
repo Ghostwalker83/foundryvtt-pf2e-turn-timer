@@ -5,7 +5,7 @@
   "version": "1.0.0",
   "authors": [
     {
-      "name": "Your Name"
+      "name": "Jeremy Witchel"
     }
   ],
   "license": "MIT",
@@ -28,5 +28,7 @@
   "languages": [],
   "packs": [],
   "dependencies": [],
-  "socket": false
+  "socket": false,
+  "manifest": "https://raw.githubusercontent.com/jkwitchel/foundryvtt-pf2e-turn-timer/main/pf2e-turn-timer/module.json",
+  "download": "https://github.com/jkwitchel/foundryvtt-pf2e-turn-timer/archive/refs/heads/main.zip"
 }
