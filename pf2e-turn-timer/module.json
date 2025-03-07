@@ -1,0 +1,32 @@
+{
+  "id": "pf2e-turn-timer",
+  "title": "PF2e Combat Turn Timer",
+  "description": "Adds a timer to each combatant during their turn and a total combat duration timer.",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Your Name"
+    }
+  ],
+  "license": "MIT",
+  "readme": "https://your-hosting.com/readme.md",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "13"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json"
+      }
+    ]
+  },
+  "esmodules": ["scripts/timer.js"],
+  "styles": ["styles/timer.css"],
+  "languages": [],
+  "packs": [],
+  "dependencies": [],
+  "socket": false
+}

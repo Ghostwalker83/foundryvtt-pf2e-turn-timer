@@ -1,0 +1,22 @@
+.total-combat-timer {
+    font-weight: bold;
+    text-align: center;
+    width: 180px;  /* Fixed width */
+    height: 30px;  /* Fixed height */
+    line-height: 30px; /* Center text vertically */
+    margin: 5px auto;  /* Keep it centered */
+    padding: 5px;
+    color: #ff4444;
+    font-size: 1em;
+    display: block !important;  /* Override Foundry's flexbox */
+    flex: none !important;  /* Prevent flex-grow */
+    overflow: hidden;  /* Prevent content overflow */
+    white-space: nowrap; /* Prevent wrapping */
+}
+
+.turn-timer {
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #ffaa00;
+    margin-left: 5px;
+}
